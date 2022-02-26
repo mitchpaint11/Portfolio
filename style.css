@@ -12,7 +12,8 @@ section {
   justify-content: center;
   align-items: center;
 }
-.hero {
+.hero { 
+    color: white;
     height: 100vh;
     width: 100%;
     background-image: url(images/geo.jpg);
@@ -31,12 +32,14 @@ section {
     padding-top: 185px;
     margin: 20px 20px;
 }
+}
 .logo {
+    display: flex;
     color: white;
     font-size: 35px;
     letter-spacing: 1px;
-    padding-top: 30px;
-    padding-left: 8%;
+    padding-top: 10px;
+    padding-left: 10px;
     padding-right: 8%;
     cursor: pointer;
 }
@@ -54,18 +57,12 @@ h1 {
     margin: 10px 0px;
     display:inline-block;
 }
-h3 {
-    /* margin-top: 100px; */
-}
-h4 {
-    /* margin-top: 30px; */
-}
 span {
     color: #f57e42;
 }
 nav ul li {
     list-style-type: none;
-    display: inline-block;
+    display: inline;
     padding: 10px 10px;
 }
 nav ul li a {
@@ -80,8 +77,15 @@ nav ul li a:hover {
 h3 {
     padding-top: 20px;
 }
+h5 {
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+    padding-top: 70px;
+}
 /* pic of me */
 .pic {
+    max-width: 100%;
     position: absolute;
     bottom: 120px;
     left: 26%;
@@ -91,8 +95,9 @@ h3 {
 .btn { 
     background-color: #f57e42;
     position: absolute;
-    top: 15px;
-    right: 10px;
+    bottom: 10vw;
+    right: 15vw;
+    /* margin-right: 0px; */
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -104,11 +109,12 @@ h3 {
 .btn:hover {
     transform: scale(1.2);
 }
-/* about */
+/* about me text */
 .about {
+    /* font-size: 3vw; */
     color: white;
     flex-wrap: wrap;
-    padding-top: 20px;
+    padding-top: 80px;
     margin-left: 20px;
     margin-right: 20px;
     
@@ -158,22 +164,26 @@ input[type=text] {
 form {
     padding-top: 30%;
 }
-
-
-/*@media only screen and (min-width: 401px) and (max-width: 899px) {
-    nav ul {
-        width: 100%;
-        background: linear-gradient(black, #f57e42);
-        position: absolute;
-        top: 75px;
-        right: 0;
-        z-index: 2;
-    }
-     nav ul li {
-          display: block;
-          margin-top: 10px;
-          margin-bottom: 10px;
-      }
-    nav ul li a {
-        color: #fff;
-    }*/
+.social-icon {
+    color: white;
+    align-items: center;
+}
+article{
+    padding-top: 40px;
+}
+@media screen and (max-width: 800px) {
+  .skills, .logo, .content  {
+    font-size: 3vw;
+  }
+      
+ul li a {
+    font-size: 3vw;
+  }
+  /* .content {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 185px;
+    margin: 20px 20px;
+} */
+}
