@@ -19,14 +19,17 @@ section {
     background-size: cover;
     background-position: center;
 }
-nav {
+.skills {
+    color:#f57e42;
+    margin-left: 14px;
+    margin-top: 50px;
+}
+.content {
+    color: white;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-left: 10%;
-    padding-right: 8%;
+    padding-top: 185px;
+    margin: 20px 20px;
 }
 .logo {
     color: white;
@@ -37,9 +40,25 @@ nav {
     padding-right: 8%;
     cursor: pointer;
 }
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 8%;
+}
 h1 {
     font-size: 35px;
-    padding-top
+    margin: 10px 0px;
+    display:inline-block;
+}
+h3 {
+    /* margin-top: 100px; */
+}
+h4 {
+    /* margin-top: 30px; */
 }
 span {
     color: #f57e42;
@@ -58,28 +77,19 @@ nav ul li a {
 nav ul li a:hover {
     color: #f57e42;
 }
-.skills {
-    color:#f57e42;
-    margin-left: 14px;
-    margin-top: 50px;
-}
-.content {
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 185px;
-    margin: 20px 20px;
-}
 h3 {
     padding-top: 20px;
 }
+/* pic of me */
 .pic {
     position: absolute;
     bottom: 120px;
     left: 26%;
+    border-radius: 10px;
 }
+/* resume btn */
 .btn { 
-    background-color:#f57e42;
+    background-color: #f57e42;
     position: absolute;
     top: 15px;
     right: 10px;
@@ -94,6 +104,7 @@ h3 {
 .btn:hover {
     transform: scale(1.2);
 }
+/* about */
 .about {
     color: white;
     flex-wrap: wrap;
@@ -102,18 +113,51 @@ h3 {
     margin-right: 20px;
     
 }
+/* animation/video*/
 .section {
     position: absolute;
     top: 20px;
     left: 5px;
 }
+/* blog images/text */
 .blogpic {
     display: flex;
-    margin-top: 25px;
-    margin-left: 60%;
+    margin-top: 15px;
 }
-
-
+.blog {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+p {
+    padding-left: 10px;
+    margin-top: 15px;
+}
+/* contact.html */
+label {
+    color: white;
+    margin-left: 20px;
+}
+input[type=text] {
+    display: flex;
+    width: 100%
+    padding: 20px 20px;
+    margin: 8px 0;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color: grey;
+}
+#msg {
+    padding: 70px 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+form {
+    padding-top: 30%;
+}
 
 
 /*@media only screen and (min-width: 401px) and (max-width: 899px) {
