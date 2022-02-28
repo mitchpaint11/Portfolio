@@ -4,14 +4,6 @@
   font-family: Courier, monospace;
   box-sizing: border-box;
 }
-section {
-  width: 100%;
-  display: flex;
-  padding: 2rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .hero { 
     color: white;
     height: 100vh;
@@ -74,6 +66,9 @@ nav ul li a {
 nav ul li a:hover {
     color: #f57e42;
 }
+h1 {
+    color:#f57e42;
+}
 h3 {
     padding-top: 20px;
 }
@@ -83,35 +78,21 @@ h5 {
     margin-left: 25px;
     padding-top: 70px;
 }
+.container {
+    margin: 1px 10px;
+}
 /* pic of me */
 .pic {
-    max-width: 100%;
-    position: absolute;
-    bottom: 120px;
-    left: 26%;
-    border-radius: 10px;
-}
-/* resume btn */
-.btn { 
-    background-color: #f57e42;
-    position: absolute;
-    bottom: 10vw;
-    right: 15vw;
-    /* margin-right: 0px; */
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 30px;
-    transition: transform .4s;
-}
-.btn:hover {
-    transform: scale(1.2);
+  position: absolute;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  margin-left: 20%;
+  margin-top: 30px;
+  border-radius: 10px;
 }
 /* about me text */
 .about {
-    /* font-size: 3vw; */
     color: white;
     flex-wrap: wrap;
     padding-top: 80px;
@@ -156,34 +137,103 @@ input[type=text] {
     border-radius: 4px;
     background-color: grey;
 }
+input:hover {
+    background-color: whitesmoke;
+}
 #msg {
     padding: 70px 80px;
     margin-left: 20px;
     margin-top: 20px;
 }
-form {
+.contact {
     padding-top: 30%;
-}
-.social-icon {
-    color: white;
-    align-items: center;
 }
 article{
     padding-top: 40px;
 }
-@media screen and (max-width: 800px) {
-  .skills, .logo, .content  {
+.btn {
+    background-color: white;
+    color: black;
+    font-size: 2vw;
+    transition: color 0.2s;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 10px;
+    position: absolute;
+    transition: transform .4s;
+    bottom: 35px;
+    left: 45.3%;
+}
+.btn:hover {
+    background-color:#f57e42;
+    transform: scale(1.2);
+}
+.social-github {
+    color: white;
     font-size: 3vw;
+    transition: color .4s;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+}
+.social-linkedin {
+    color: white;
+    font-size: 3vw;
+    position: absolute;
+    bottom: 20px;
+    left: 55%;
+    transition: color .4s;
+}
+.social-github:hover, .social-linkedin:hover {
+    color:#f57e42;
+    transform: scale(1.2);
+}
+@media screen and (max-width: 600px) {
+  .skills, .logo, .content  {
+    font-size: 5vw;
   }
       
-ul li a {
+ul li {
     font-size: 3vw;
   }
-  /* .content {
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 185px;
-    margin: 20px 20px;
-} */
+  .btn {
+      position: absolute;
+      bottom: 25px;
+  }
+  .social-github, .social-linkedin {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+  }
+}
+@media screen and (min-width: 800px) {
+   .about, .content {
+       margin: 100px 300px;
+   }
+   .container {
+    margin: 30px 300px;
+   }
+   .contact {
+       position: absolute;
+       margin: 8px 360px;
+       padding: 300px;
+   }
+   h1, h3, h4 {
+       margin: 20px 200px;
+       padding-left: 40px;
+   }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .about, .content {
+    margin: 50px 100px;
+   }
+    .contact {
+       position: absolute;
+       margin: 1px 150px;
+   }
+   .container {
+    margin: 40px 50px;
+   }
 }
