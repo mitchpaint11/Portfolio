@@ -4,7 +4,8 @@
 
 ##### GitHub Repo: https://github.com/mitchpaint11/portfolio
 
-#### Discription:
+#### Purpose, Target Audience & Features:
+
 The purpose of this website portfolio is to outline my skills, work history, personality, and contact information for the target audience, which in this case is a potential client or employer. To help them gain a better understanding of who i am and what i have to offer. It is also a way to showcase my experience, what i have learned, my design skills and my ability to write code using HTML and CSS. 
 
 When it comes to the functionality, features and design of my Portfolio, I wanted to keep it as simple as possible, displaying a minimal aesthetic while still keeping to brief and providing all the information a potential client or employer would require to gain a strong enough understanding about me. 
@@ -21,5 +22,28 @@ The ***Blog*** page displays a list of 5 different blog posts with an image, tit
 The final page on my Portfolio website is the ***contact*** page. This is where the user will find a simple and affectice (***let's work together..***) Below this heading is a form whereby the user is prompted to insert their name, email address, and a short message if they would like to contact me or have an interest in working together. Below the form is a submit button and my email address if there were ever any issues with using the form or opening my resume, where all of my contact information is listed. Each box in the form is grey, keeping it semi-blended with the background and contains a hover effect to display the boxes white when the mouse moves over them, to further prompt the user to click and fill out the form.
 
 
-
+#### Sitemap:
 ![Image of Sitemap](/README/portfolio-sitemap.png)
+
+
+#### Screenshots:
+
+##### Home Page
+![Image of Home Page](/README/Home-page.png)
+
+##### About Me
+![Image of Home Page](/README/About-me.png)
+
+##### Blog Page
+![Image of Home Page](/README/Blog-page.png)
+
+##### Blog Post 1 (Coding With HTML)
+![Image of Home Page](/README/Blog-post-1.png)
+
+##### Contact
+![Image of Home Page](/README/Contact-me.png)
+
+
+#### Tech Stack:
+![Image of Home Page](/README/tech-stack.png)
+
