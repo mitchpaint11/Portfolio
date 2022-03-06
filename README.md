@@ -1,6 +1,6 @@
 # T1A2 - Portfolio
 
-##### Live Website URL: https://621ec301fafe4a0008ecb582--jovial-clarke-23ae75.netlify.app/index.html
+##### Live Website URL: https://621f45cb9349fe0007af15b0--mitchellpainter.netlify.app/blog.html
 
 ##### GitHub Repo: https://github.com/mitchpaint11/portfolio
 
